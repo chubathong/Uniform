@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Categories</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+
+</head>
+
+<a href="category.php"><section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate text-center mb-4">
+            <h1 class="mb-2 bread" style="color: cyan;">Categories</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php?action=home" style="color: cyan;">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2">
+              <a href="category.php" style="color: cyan;">Categories</a></p>
+          </div>
+        </div>
+      </div>
+</section></a>
+    <!-- menu -->
+    <div class="py-1 bg-black top">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+                <div class="col-lg-12 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                            <span class="text" style="color: cyan;">0903349614</span>
+                        </div>
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                            <span class="text" style="color: cyan;">chubathongp2000@email.com</span>
+                        </div>
+                        <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+                            <p class="mb-0 register-link"><span style="color: cyan;">Open hours:</span> <span style="color: cyan;">Monday - Saturday</span><br> <span style="color: cyan;">From 9:00 To 22:00</span></p>
+                            <a class="nav-item "><a href="register.php" class=" nav-link ">Register</a></a> 
+                            <a class="nav-item "><a href="login.php" class=" nav-link ">Login</a>
+                            <svg id="i-signin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5">
+                                    <path d="M3 16 L23 16 M15 8 L23 16 15 24 M21 4 L29 4 29 28 21 28" />
+                                </svg>
+
+                            </a>                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+         <div class="col-sm-5" id="sce_column_init_1014_3_54_57">
+          <div class="scp-panel">
+              <div class="scp-widget" style="position: relative;">
+           <div class="scw-storelogo h1" data-scclass="h1">
+             <a href="welcome.php" title="A1 Uniform"><img  onerror="OnImageError(this)" src="images/a2logo.png"></a>
+           </div>
+              </div>
+          </div>
+         </div>
+         <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.php?action=home" class="p-2 nav-link"><span style="color: cyan;" title="Home">Home</span></a></li>
+                <li class="nav-item"><a href="about.php" class="p-2 nav-link"><span style="color: cyan;" title="About us">About us</span></a></li>
+                <li class="nav-item dropdown">
+                    <a class="p-2 nav-link" href="category.php"><span style="color: cyan;" title="Categories">Categories</span></a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"  style="color: cyan;" href="category.php?category=1">Shirts</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=2">Skirts</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=3">Frocks</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=4">P.T Shirts</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=5">P.T Shorts</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=6">P.T Track Pants</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=7">Belts</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=8">Ties</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=9">Logos</a>
+                        <a class="dropdown-item" style="color: cyan;" href="category.php?category=10">Socks</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="contact.php" class="p-2 nav-link"><span style="color: cyan;" title="Contact">Contact</span></a></li>
+                <li class="nav-item"><a href="feedback.php" class="p-2 nav-link"><span style="color: cyan;" title="Feedback">Feedback</span></a></li>
+
+            </ul>
+            
+        </div>
+    </nav>
+    
+
+
+    <?php
+    
+    if (isset($_GET['action'])) {
+        switch ($_GET['action']) {
+            case "home":
+                require_once("home.php");
+                break;
+        }
+    } else {
+        require_once("category.php");
+    }
+
+    ?>
+<section> 
+    
+  
+    <style>
+        body{
+            font-family: arial;
+        }
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+        .product-items{
+            padding: 30px;
+        }
+        .product-item{
+            float: left;
+            width: 23%;
+            margin: 1%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            line-height: 26px;
+        }
+        .product-item label{
+            font-weight: bold;
+        }
+        .product-item p{
+            margin: 0;
+            line-height: 26px;
+            max-height: 52px;
+            overflow: hidden;
+        }
+        .product-price{
+            color: red;
+            font-weight: bold;
+        }
+        .product-img{
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+        }
+        .product-item img{
+            max-width: 100%;
+        }
+        .product-item ul{
+            margin: 0;
+            padding: 0;
+            border-right: 1px solid #ccc;
+        }
+        .product-item ul li{
+            float: left;
+            width: 33.3333%;
+            list-style: none;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-right: 0;
+            box-sizing: border-box;
+        }
+        .clear-both{
+            clear: both;
+        }
+        a{
+            text-decoration: none;
+        }
+        .buy-button{
+            text-align: right;
+            margin-top: 10px;
+        }
+        .buy-button a{
+            background: #444;
+            padding: 5px;
+            color: #fff;
+        }
+        #pagination{
+            text-align: right;
+            margin-top: 15px;
+        }
+        .page-item{
+            border: 1px solid #ccc;
+            padding: 5px 9px;
+            color: #000;
+        }
+        .current-page{
+            background: #000;
+            color: #FFF;
+        }
+        #wrapper-product{
+            border: 1px solid #ccc;
+        }
+        #product-search{
+            margin: 0 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            float: left;
+        }
+        #sort-box{
+            float: right;
+            margin-right: 45px;
+            line-height: 24px;
+            height: 24px;
+        }
+    </style>
+</section>
+
+<section>
+
+<?php
+
+
+    include './connect_db.php';
+    $category = $_GET['category'];
+    if($category == 0) {
+        $products = mysqli_query($con,'select * from product');
+    } else {
+    $products = mysqli_query($con,'select * from product where category_id = '.$category);
+    }
+
+?>
+<br><br>
+
+<section>
+       
+            <h1>Product List</h1>
+            <div class="product-items">
+                <?php
+                while ($row = mysqli_fetch_array($products)) {
+                    ?>
+                    <div class="product-item">
+                        <div class="product-img">
+                            <a href="product_detail.php?id=<?= $row['id'] ?>"><img src="<?= $row['image'] ?>" title="<?= $row['name'] ?>" /></a>
+                        </div>
+                        <strong><a href="product_detail.php?id=<?= $row['id'] ?>"><?= $row['name'] ?></a></strong><br/>
+                        <label>Price: </label><span class="product-price"><?= number_format($row['price'], 0, ",", ".") ?> đ</span><br/>
+                        <p>Discription: <?= $row['content'] ?></p>
+                        <div class="buy-button">
+                          <a href="product_detail.php?id=<?= $row['id'] ?>">Buy</a>
+                        </div>
+                    </div>
+                <?php } ?>
+                <div class="clear-both"></div>
+                <?php
+                //include './pagination.php';
+                ?>
+                <div class="clear-both"></div>
+            </div>
+       
+</section>        
+</section>
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        
+                        <h2 class=" ftco-heading-2 ">A1 Uniform</h2>
+                           <strong style="color: whitesmoke;"> A1 Uniform Sales Co, Inc</strong>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="https://www.twitter.com/"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.youtube.com/"><span class="icon-youtube"></span></a></li><br>
+                            <span class="icon-phone2" style="color: cyan;"></span> <span style="color: cyan;"> Phone :</span><li class="ftco-animate">
+                               <div class="col-md pr-4 d-flex topper align-items-center">
+                                 
+                                    <span class="text" style="color: cyan;">0903349614</span>
+                               </div>
+                            </li><br>
+                            <span class="icon-fax" style="color: cyan;"></span> <span style="color: cyan;"> Fax :</span><li class="ftco-animate">
+                               <div class="col-md pr-4 d-flex topper align-items-center">
+                                 
+                                    <span class="text" style="color: cyan;">0903349614</span>
+                               </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Open Hours</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Monday</span><span>9:00 - 22:00</span></li>
+                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 22:00</span></li>
+                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 22:00</span></li>
+                            <li class="d-flex"><span>Thursday</span><span>9:00 - 22:00</span></li>
+                            <li class="d-flex"><span>Friday</span><span>9:00 - 22:00</span></li>
+                            <li class="d-flex"><span>Saturday</span><span>10:00 - 20:00</span></li>
+                            <li class="d-flex"><span>Sunday</span><span> 10:00 - 20:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Customer</h2>
+                        <ul class="list-unstyled open-hours">
+                            <a href="#"><li class="d-flex">My Account</li></a>
+                            <a href="#"><li class="d-flex">Order History</li></a>
+                            <a href="#"><li class="d-flex">My Wishlist</li></a>
+                            <a href="#"><li class="d-flex">Terms and Conditions</li></a>
+                            <a href="#"><li class="d-flex">Privacy Policy</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Company</h2>
+                        <ul class="list-unstyled open-hours">
+                         <a href="about.php"><li class="d-flex">About</li></a>
+                         <a href="contact.php"><li class="d-flex">Contact Us</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                    ©A1uniforms 2020 | Powered by Sellers Commerce<script>
+                            document.write(new Date().getFullYear());
+                        </script> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+    <!-- end footer -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+</html>
